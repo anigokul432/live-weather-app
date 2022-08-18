@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/live-weather-app/static/css/main.ff00c73d.css",
+    "main.js": "/live-weather-app/static/js/main.ad6511ef.js",
+    "index.html": "/live-weather-app/index.html",
+    "main.ff00c73d.css.map": "/live-weather-app/static/css/main.ff00c73d.css.map",
+    "main.ad6511ef.js.map": "/live-weather-app/static/js/main.ad6511ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff00c73d.css",
+    "static/js/main.ad6511ef.js"
+  ]
+}
