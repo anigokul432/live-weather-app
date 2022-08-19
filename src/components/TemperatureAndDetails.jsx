@@ -1,7 +1,5 @@
 import React from 'react'
 import { 
-    UilArrowUp,
-    UilArrowDown,
     UilTemperature,
     UilTear,
     UilWind,
@@ -17,9 +15,14 @@ function TemperatureAndDetails() {
         </div>
 
         <div className='flex flex-row items-center justify-between py-3'>
-            <p className='flex flex-col space-y-2 text-white text-8xl drop-shadow-lg'>
+            <div className='flex flex-col space-y-2 text-white text-8xl drop-shadow-lg'>
                 34°
-            </p>
+                <div className='flex font-light text-sm items-center text-white'>
+                <p>H: <span className='font-medium ml-1'>38°</span></p>
+                <p className='px-2 sm:px-2'></p>
+                <p>L: <span className='font-medium ml-1'>28°</span></p>
+                </div>
+            </div>
             <div className='flex flex-col space-y-2'>
                 <div className='flex font-light text-sm items-center text-white'>
                     <UilTemperature size={18} className='mr-1'/>
@@ -51,18 +54,6 @@ function TemperatureAndDetails() {
             <UilSunset/>
             <p className='font-light'>
                 Set: <span className='font-medium ml-1'>07:35 PM</span>
-            </p>
-            
-            <p className='px-0 sm:px-2'></p>
-            <UilArrowUp/>
-            <p className='font-light'>
-                High: <span className='font-medium ml-1'>06:45 AM</span>
-            </p>
-            
-            <p className='px-0 sm:px-2'></p>
-            <UilArrowDown/>
-            <p className='font-light'>
-                Low: <span className='font-medium ml-1'>06:45 AM</span>
             </p>
         </div>
     </div>
