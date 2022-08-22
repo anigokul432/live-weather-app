@@ -5,7 +5,7 @@ A weather app that retrieves data from the OpenWeatherAPI. Project is built with
 
 Link to project: https://anigokul432.github.io/live-weather-app/
 
-![image](https://user-images.githubusercontent.com/10840539/186036498-9ca99870-b8f4-4a8b-8840-7317a49d1e05.png | width=300)
+![image](https://user-images.githubusercontent.com/10840539/186036498-9ca99870-b8f4-4a8b-8840-7317a49d1e05.png|width=300)
 
 ### Features:
 1. Search takes city, country, and even continent as inputs.
