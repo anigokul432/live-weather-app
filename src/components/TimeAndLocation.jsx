@@ -10,11 +10,11 @@ function TimeAndLocation({weather: {dt, timezone, name, country}}) {
             </p>
         </div>
 
-        <div className='flex items-center justify-center my-3'>
-            <p className='text-white text-base font-extralight px-6 sm:text-xl'>
+        <div className='flex items-center justify-center'>
+            <p className='text-white text-base font-extralight px-3 sm:text-xl'>
                 {formatToLocalTime(dt, timezone).split('|')[0]}
             </p>
-            <p className='text-white text-base font-extralight px-6 sm:text-xl'>
+            <p className='text-white text-base font-extralight px-3 sm:text-xl'>
                 {formatToLocalTime(dt, timezone).split('|')[1]}
             </p>
         </div> 
