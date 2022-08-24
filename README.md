@@ -12,4 +12,4 @@ Link to project: https://anigokul432.github.io/live-weather-app/
 2. Change between imperial and metric units.
 3. Quickly select 5 of the world's famous cities throught the first row of buttons.
 4. Use the map marker icon to get the weather of your current location
-5. Background changes gradient color depending on temperature and time of day.
+5. Background changes gradient color depending on temperature and time of day. 
